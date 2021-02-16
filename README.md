@@ -1,7 +1,16 @@
 this is meant to be used with an external admin tool such as IW4M or B3
 you will need to modify teknomw3 parser for respected admin tool
 
-TODO :need add what to edit in parser
+go to iw4m root folder and find plugins folder
+edit ParserTeknoMW3.js use your prefered text editor
+and find these lines
+rconParser.Configuration.CommandPrefixes.Tell = 'tell {0} {1}';
+rconParser.Configuration.CommandPrefixes.Say = 'say {0}';
+
+and replace with this below
+
+rconParser.Configuration.CommandPrefixes.Tell = 'set sv_RconExecute tell {0} {1}';
+rconParser.Configuration.CommandPrefixes.Say = 'set sv_RconExecute say {0}';
 
 # Rconsay before using script
 
