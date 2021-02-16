@@ -6,8 +6,11 @@ TODO :need add what to edit in parser
 # Rconsay before using script
 
 default dvar values
+
 sv_sayname "^7console:"
+
 sv_pmsayname "^7PM:"
+
 ^^^^^^^^^^^ if you dont add dvars to server.cfg these will be default prefixs
 
 you will need to add 2 dvars to your server.cfg file located in players2 folder inside of teknomw3 dedicated server folder
