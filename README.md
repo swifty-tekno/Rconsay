@@ -29,3 +29,9 @@ you will need to add 2 dvars to your server.cfg file located in players2 folder 
 seta sv_sayname "mypublicprefix"
 
 seta sv_pmsayname "myprivateprefix"
+
+with prefix dvars set
+https://user-images.githubusercontent.com/68487146/108092320-81bb8700-7074-11eb-9d66-39ade6ce0b0a.PNG
+
+without prefix dvars set this is default
+https://user-images.githubusercontent.com/68487146/108092381-939d2a00-7074-11eb-9ce6-9ddc27acc0d5.PNG
