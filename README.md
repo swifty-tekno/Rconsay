@@ -13,6 +13,5 @@ sv_pmsayname "^7PM:"
 you will need to add 2 dvars to your server.cfg file located in players2 folder inside of teknomw3 dedicated server folder
 
 seta sv_sayname "mypublicprefix"
+
 seta sv_pmsayname "myprivateprefix"
-
-
