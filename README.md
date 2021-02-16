@@ -5,11 +5,13 @@ go to iw4m root folder and find plugins folder
 edit ParserTeknoMW3.js use your prefered text editor
 and find these lines
 rconParser.Configuration.CommandPrefixes.Tell = 'tell {0} {1}';
+
 rconParser.Configuration.CommandPrefixes.Say = 'say {0}';
 
 and replace with this below
 
 rconParser.Configuration.CommandPrefixes.Tell = 'set sv_RconExecute tell {0} {1}';
+
 rconParser.Configuration.CommandPrefixes.Say = 'set sv_RconExecute say {0}';
 
 # Rconsay before using script
